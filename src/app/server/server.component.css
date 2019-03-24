@@ -1,0 +1,28 @@
+.container{
+  position:relative;
+  border:5px solid blue;
+  width:800px;
+  height:100%;
+}
+
+.nav{
+  position:absolute;
+  left:0;
+  width:200px;
+  height:80%;
+  display:inline-block;
+  border: 5px solid red;
+}
+
+
+
+.section{
+  position:relative;
+  display:inline-block;
+  width:590px;
+  height:33.33%;
+  border: 5px solid orange;
+  margin-left:185px;
+  padding:5px;
+  left:0;
+}
