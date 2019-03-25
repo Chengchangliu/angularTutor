@@ -48,3 +48,18 @@
     <div><span style="color: cornflowerblue; margin-right: 5px;">Student Major: </span> <span>{{ student.major }}</span></div>
   </div>
 </div>
+
+<hr>
+<h4>This is a menu</h4>
+<div>
+  <span> Things user want to cook </span>
+  <input type="text" [(ngModel)]="cook">
+  <button class="btn btn-light" (click)="adding()">want to cook this</button>
+  </div>
+
+
+
+<div>
+  <button class="btn btn-light" (click)="judge()">judge</button>
+  <p>{{final_result}}</p>
+</div>
